@@ -11,11 +11,11 @@ class Prime_Method{
 	}
 	public static void PrimeNumber(int Number){
 		
-		if (Number < 2) 
+		if (Number < 2) //1<2
             System.out.println(Number + " is NOT a Prime Number");
           
 	 for (int i = 2; i < Number; i++) { 
-            if (Number % i == 0) {
+            if (Number % i == 0) {//num%2
              System.out.println("not prime Number");
 		     break;
 		 }
